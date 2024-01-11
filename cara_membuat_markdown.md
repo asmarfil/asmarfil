@@ -21,4 +21,6 @@ Untuk membuat paragraf, cukup pisahkan teks dengan baris kosong.
 ![git5](https://github.com/asmarfil/asmarfil/assets/156057446/db818ed4-d22a-42e4-a648-696b7e2aa901)
 
 # 7.Gambar
+![git6](https://github.com/asmarfil/asmarfil/assets/156057446/3208deee-f2ac-420b-99ad-396c007431c2)
+
 
