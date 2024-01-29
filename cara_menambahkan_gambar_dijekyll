@@ -1,0 +1,35 @@
+Untuk menambahkan gambar di Jekyll, Anda perlu mengikuti beberapa langkah. Jekyll menggunakan Markdown sebagai format utama untuk menulis konten, dan Anda dapat menyematkan gambar langsung dalam markup Markdown. Berikut adalah langkah-langkah umumnya:
+
+Tempatkan Gambar di Direktori yang Tepat:
+Pastikan gambar yang ingin Anda tambahkan ditempatkan di direktori yang benar di dalam struktur proyek Jekyll Anda. Direktori yang umum digunakan adalah assets/images/.
+
+Edit File Markdown:
+Buka file Markdown tempat Anda ingin menyematkan gambar, misalnya, index.md atau file lainnya.
+
+Gunakan Markup Markdown:
+Gunakan markup Markdown untuk menyematkan gambar. Gunakan format berikut:
+
+markdown
+Copy code
+![Alt Text](/path/to/image.jpg)
+Gantilah /path/to/image.jpg dengan jalur yang benar ke gambar Anda. Jika gambar berada di dalam direktori assets/images/, Anda dapat menulis sesuatu seperti:
+
+markdown
+Copy code
+![Alt Text](/assets/images/your-image.jpg)
+Alt Text adalah teks alternatif yang akan muncul jika gambar tidak dapat dimuat.
+
+Jalankan Jekyll:
+Jalankan server Jekyll untuk melihat perubahan yang Anda buat. Buka terminal, arahkan ke direktori proyek Anda, dan jalankan perintah:
+
+bash
+Copy code
+bundle exec jekyll serve
+Kemudian buka browser dan akses http://localhost:4000 (atau port yang Anda gunakan). Anda seharusnya dapat melihat gambar di halaman Anda.
+
+Pastikan untuk menggantikan your-image.jpg dengan nama file gambar yang sesuai dan pastikan jalur file dan direktori sesuai dengan struktur proyek Anda. Jika menggunakan tema Jekyll tertentu, pastikan untuk memeriksa dokumentasinya karena beberapa tema mungkin memiliki struktur direktori khusus untuk menyimpan gambar.
+
+
+
+
+
